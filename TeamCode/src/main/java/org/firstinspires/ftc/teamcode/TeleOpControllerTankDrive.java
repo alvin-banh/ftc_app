@@ -39,7 +39,7 @@ public class TeleOpControllerTankDrive extends OpMode {
 
         rightWheel.setDirection(DcMotor.Direction.FORWARD);
         leftWheel.setDirection(DcMotor.Direction.REVERSE);
-        lift.setDirection(DcMotor.Direction.REVERSE);
+        lift.setDirection(DcMotor.Direction.FORWARD);
 
         liftPower = 0.75;
 
